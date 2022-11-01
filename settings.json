@@ -1,0 +1,167 @@
+{
+    "editor.formatOnSave": false,
+    "editor.formatOnPaste": false,
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "none",
+    "editor.renderLineHighlight": "line",
+    "editor.occurrencesHighlight": true,
+    "editor.selectionHighlight": true,
+    "editor.matchBrackets": "always",
+    "editor.guides.indentation": false,
+    "editor.autoClosingOvertype": "auto",
+    "editor.autoClosingQuotes": "languageDefined",
+    "editor.autoSurround": "languageDefined",
+    "editor.codeActionsOnSave": {
+        "source.fixAll": false,
+        "source.organizeImports": false,
+    },
+    "editor.codeLens": false,
+    "editor.colorDecorators": true,
+    "editor.defaultFormatter": null,
+    "editor.detectIndentation": true,
+    "editor.dragAndDrop": false,
+    "editor.emptySelectionClipboard": true, // ctrl+C to copy current line
+    "editor.find.autoFindInSelection": "multiline", // find in a selected area
+    "editor.find.seedSearchStringFromSelection": "selection",
+    "editor.folding": true,
+    "editor.foldingStrategy": "auto",
+    "editor.fontFamily": "Cascadia Code",
+    "editor.fontSize": 15,
+    "editor.glyphMargin": false, // debug breakpoints
+    "editor.hover.sticky": true,
+    "editor.insertSpaces": false,
+    "editor.lightbulb.enabled": false,
+    "editor.links": true,
+    "editor.mouseWheelScrollSensitivity": 2,
+    "editor.multiCursorModifier": "alt",
+    "editor.overviewRulerBorder": false,
+    "editor.parameterHints.enabled": true,
+    "editor.parameterHints.cycle": true,
+    "editor.quickSuggestionsDelay": 10,
+    "editor.renderControlCharacters": true,
+    "editor.renderFinalNewline": true,
+    "editor.roundedSelection": true,
+    "editor.scrollBeyondLastColumn": 15,
+    "editor.showFoldingControls": "always",
+    "editor.showUnused": true,
+    "editor.smoothScrolling": true,
+    "editor.snippetSuggestions": "top",
+    "editor.stablePeek": false,
+    "editor.suggest.filterGraceful": true,
+    "editor.suggest.localityBonus": false,
+    "editor.copyWithSyntaxHighlighting": true,
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorStyle": "line",
+    "editor.cursorSurroundingLines": 4,
+    "editor.cursorSurroundingLinesStyle": "default",
+    "editor.cursorWidth": 2,
+    "editor.suggest.showIcons": true,
+    "editor.suggest.snippetsPreventQuickSuggestions": true,
+    "editor.suggestFontSize": 0,
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.tabSize": 4,
+    "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?",
+
+
+    "explorer.autoReveal": false,
+    "explorer.confirmDelete": true,
+    "explorer.confirmDragAndDrop": true,
+    "explorer.decorations.badges": false,
+    "explorer.decorations.colors": true,
+    "explorer.enableDragAndDrop": true,
+    "explorer.incrementalNaming": "smart",
+
+
+    "extensions.autoCheckUpdates": true,
+    "extensions.autoUpdate": false,
+    "extensions.ignoreRecommendations": true,
+
+
+    "files.encoding": "utf8",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 350,
+    "files.enableTrash": true,
+    "files.eol": "auto",
+    "files.exclude": {
+        "**/.o": true,
+        "**/AUTHORS": true,
+        "**/LICENSE": true,
+        "**/NEWS": true,
+        "**/CONTRIBUTING.md": true,
+        "**/TODO": true,
+    },
+    "files.insertFinalNewline": true,
+    "files.simpleDialog.enable": true,
+    "files.trimFinalNewlines": true, // ctrl + s to trim
+    "files.trimTrailingWhitespace": true, // ctrl + s to trim
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+    },
+
+    "terminal.integrated.confirmOnExit": "never",
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.fontWeight": "normal",
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cwd": "",
+    "terminal.integrated.detectLocale": "auto",
+    "terminal.integrated.drawBoldTextInBrightColors": true,
+    "terminal.integrated.enableBell": false,
+    "terminal.integrated.enableFileLinks": true,
+    "terminal.integrated.fontFamily": "",
+    "terminal.integrated.gpuAcceleration": "auto",
+    "terminal.integrated.rightClickBehavior": "default", // show the context menu
+    "terminal.integrated.scrollback": 2000,
+    "terminal.integrated.showExitAlert": true,
+
+
+
+    //"terminal.integrated.defaultProfile.osx": "Git Bash",
+    //"terminal.integrated.defaultProfile.linux": "Git Bash",
+    //"terminal.integrated.defaultProfile.windows": "Git Bash",
+    "workbench.activityBar.visible": false, // extensions: ctrl + shift + x, explorer: ctrl + shift + e, search: ctrl + shift + f, git: ctrl + shift + g
+    "workbench.editor.enablePreview": true,
+    
+
+    "workbench.editor.showIcons": false, // removes icon from opened files in tabs
+    "workbench.editor.tabCloseButton": "off", // removes cross icon from tabs
+    "workbench.statusBar.visible": false, // removes the status bar
+
+
+    "breadcrumbs.enabled": false, // remove a file path under the list of the opened files
+    "explorer.compactFolders": false,
+    "explorer.openEditors.visible": 0, // removes the open editors section at the top of the sidebar, you can see the opened files with ⌘ + ⌥ + Tab
+
+    "window.zoomLevel": 2,
+    "json.schemas": [],
+
+    "[python]": {
+        "editor.useTabStops": true, // delete 4 spaces
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true,
+    },
+
+    "[c]": {
+        "editor.tabSize": 8,
+        "editor.insertSpaces": false,
+        "editor.rulers": [
+            80,
+        ],
+    },
+    "[cpp]": {
+        "editor.tabSize": 8,
+        "editor.insertSpaces": false,
+        "editor.rulers": [
+            80,
+        ],
+    },
+
+    "cSpell.allowCompoundWords": true,
+    "cSpell.spellCheckDelayMs": 300,
+    "workbench.colorCustomizations": {
+        "editorInfo.foreground":    "#456dbcdd"
+    }
+}
