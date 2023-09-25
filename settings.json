@@ -39,19 +39,20 @@
     "editor.parameterHints.cycle": true,
     "editor.quickSuggestionsDelay": 10,
     "editor.renderControlCharacters": true,
-    "editor.renderFinalNewline": true,
+    "editor.renderFinalNewline": "on",
     "editor.roundedSelection": true,
     "editor.scrollBeyondLastColumn": 15,
     "editor.showFoldingControls": "always",
     "editor.showUnused": true,
     "editor.smoothScrolling": true,
-    "editor.snippetSuggestions": "top",
+    "editor.snippetSuggestions": "none",
     "editor.stablePeek": false,
     "editor.suggest.filterGraceful": true,
     "editor.suggest.localityBonus": false,
+    "editor.suggest.showWords": false,
     "editor.copyWithSyntaxHighlighting": true,
     "editor.cursorBlinking": "smooth",
-    "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorSmoothCaretAnimation": "on",
     "editor.cursorStyle": "line",
     "editor.cursorSurroundingLines": 4,
     "editor.cursorSurroundingLinesStyle": "default",
@@ -110,11 +111,11 @@
     "terminal.integrated.detectLocale": "auto",
     "terminal.integrated.drawBoldTextInBrightColors": true,
     "terminal.integrated.enableBell": false,
-    "terminal.integrated.enableFileLinks": true,
+    "terminal.integrated.enableFileLinks": "on",
     "terminal.integrated.fontFamily": "",
     "terminal.integrated.gpuAcceleration": "auto",
     "terminal.integrated.rightClickBehavior": "default", // show the context menu
-    "terminal.integrated.scrollback": 2000,
+    "terminal.integrated.scrollback": 3000,
     "terminal.integrated.showExitAlert": true,
 
 
@@ -124,18 +125,14 @@
     //"terminal.integrated.defaultProfile.windows": "Git Bash",
     "workbench.activityBar.visible": false, // extensions: ctrl + shift + x, explorer: ctrl + shift + e, search: ctrl + shift + f, git: ctrl + shift + g
     "workbench.editor.enablePreview": true,
-    
 
-    "workbench.editor.showIcons": false, // removes icon from opened files in tabs
+
+    "workbench.editor.showIcons": true, // enables icon from opened files in tabs
     "workbench.editor.tabCloseButton": "off", // removes cross icon from tabs
-    "workbench.statusBar.visible": false, // removes the status bar
+    "workbench.statusBar.visible": true, // enables the status bar
 
-
-    "breadcrumbs.enabled": false, // remove a file path under the list of the opened files
+    "breadcrumbs.enabled": true, // show a file path under the list of the opened files
     "explorer.compactFolders": false,
-    "explorer.openEditors.visible": 0, // removes the open editors section at the top of the sidebar, you can see the opened files with ⌘ + ⌥ + Tab
-
-    "window.zoomLevel": 2,
     "json.schemas": [],
 
     "[python]": {
@@ -159,9 +156,53 @@
         ],
     },
 
+    "[lua]": {
+        "editor.useTabStops": true,
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true,
+        "editor.rulers": [
+            80,
+        ],
+    },
+
     "cSpell.allowCompoundWords": true,
     "cSpell.spellCheckDelayMs": 300,
+    "cSpell.ignoreWords": ["tarantool", "noflush", "pgwire", "coio", "pico", "ibuf", "obuf", "dbapi"],
+
+    "errorLens.delay": 500,
+    "errorLens.fontWeight": "100",
+    "errorLens.fontSize": "12",
+    "errorLens.fontStyleItalic": false,
+    "errorLens.borderRadius": "3px",
+    "errorLens.messageBackgroundMode": "none",
+
     "workbench.colorCustomizations": {
-        "editorInfo.foreground":    "#456dbcdd"
+        "editorInfo.foreground":    "#395ca4dd",
+        "statusBar.background": "#262126",
+    },
+    "workbench.iconTheme": "material-icon-theme",
+
+    "cmake.statusbar.visibility": "hidden",
+    "gitlens.statusBar.pullRequests.enabled": false,
+    "git.enableStatusBarSync": false,
+    "gitlens.graph.statusBar.enabled": false,
+    "debug.showInStatusBar": "never",
+    "errorLens.statusBarIconsEnabled": false,
+    "gitlens.mode.statusBar.enabled": false,
+    "notebook.showCellStatusBar": "hidden",
+
+    "C_Cpp.default.cppStandard": "gnu++20",
+    "C_Cpp.default.cStandard": "c17",
+    "workbench.localHistory.maxFileEntries": 200,
+
+    "rust-analyzer.inlayHints.renderColons": false,
+    "rust-analyzer.inlayHints.typeHints.enable": false,
+    "rust-analyzer.inlayHints.parameterHints.enable": false,
+    "rust-analyzer.inlayHints.chainingHints.enable": false,
+    "workbench.colorTheme": "GitHub Dark Dimmed",
+    "python.defaultInterpreterPath": "C:\\Users\\bober\\AppData\\Local\\Microsoft\\WindowsApps\\python3.9.exe",
+    "errorLens.messageEnabled": false,
+    "workbench.editorAssociations": {
+        "git-rebase-todo": "default"
     }
 }
